@@ -37,7 +37,9 @@ Also make sure the default wordlist exists at:
 ## 🚀 Usage
 
 chmod +x web_fuzz.sh
+
 ./web_fuzz.sh http://target.com
+
 Replace http://target.com with the URL of your target web application.
 
 ## 📂 Output
