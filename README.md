@@ -1,4 +1,4 @@
-#Web Fuzzing Automation Script
+# Web Fuzzing Automation Script
 This repository contains a simple Bash script (web_fuzz.sh) designed to automate basic web fuzzing and reconnaissance tasks using widely-used security tools like Nikto, Dirb, Gobuster, and FFUF.
 
 📌 Features
