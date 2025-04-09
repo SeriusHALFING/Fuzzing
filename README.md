@@ -51,10 +51,10 @@ gobuster_results.txt – Output from Gobuster (if available)
 
 ffuf_results.json – Output from FFUF (if available)
 
-📎 Notes
+## 📎 Notes
 If Gobuster or FFUF are not found in your system's $PATH, they will be skipped.
 
 This is intended for authorized security testing and learning purposes only.
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 Use responsibly. Unauthorized scanning of systems is illegal and unethical.
