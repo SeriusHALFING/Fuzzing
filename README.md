@@ -1,14 +1,14 @@
-## Web Fuzzing Automation Script
+# Web Fuzzing Automation Script
 This repository contains a simple Bash script (web_fuzz.sh) designed to automate basic web fuzzing and reconnaissance tasks using widely-used security tools like Nikto, Dirb, Gobuster, and FFUF.
 
-📌 Features
+## 📌 Features
 Scans a target web server for common vulnerabilities and hidden paths.
 
 Automatically runs multiple tools and collects their output into timestamped result folders.
 
 Supports optional use of Gobuster and FFUF if they are installed.
 
-🧰 Tools Used
+## 🧰 Tools Used
 Nikto – Web server vulnerability scanner.
 
 Dirb – Web content scanner using a wordlist.
@@ -17,10 +17,10 @@ Gobuster (optional) – Directory/file scanner written in Go.
 
 FFUF (optional) – Fast web fuzzer written in Go.
 
-🔧 Requirements
+## 🔧 Requirements
 Ensure the following tools are installed on your system:
 
-bash
+
 
 nikto
 
@@ -32,19 +32,15 @@ dirb
 
 Also make sure the default wordlist exists at:
 
-swift
-Copiar
-Editar
 /usr/share/wordlists/dirb/common.txt
-🚀 Usage
-bash
-Copiar
-Editar
+
+## 🚀 Usage
+
 chmod +x web_fuzz.sh
 ./web_fuzz.sh http://target.com
 Replace http://target.com with the URL of your target web application.
 
-📂 Output
+## 📂 Output
 The script creates a results folder named fuzz_results_YYYYMMDD_HHMMSS containing:
 
 nikto_results.txt – Output from Nikto
